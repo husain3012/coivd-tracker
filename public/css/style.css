@@ -33,6 +33,15 @@ body {
   .country-flag {
     text-align: center;
   }
+
+  .stats div {
+    font-size: 1.5rem;
+    padding:5px 0;
+  }
+  .stats div {
+    font-size: 1rem;
+    padding:0;
+  }
 }
 
 .stats {
@@ -41,10 +50,7 @@ body {
 
   width: fit-content;
 }
-.stats div {
-  font-size: 1.5rem;
-  padding:5px 0;
-}
+
 .stats .field {
   text-align: end;
   padding-right: 2rem;
