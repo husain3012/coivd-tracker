@@ -39,11 +39,11 @@ body {
   margin: 1rem auto;
   /* border-radius: 10px; */
 
-  width: 50ch;
+  width: fit-content;
 }
 .stats div {
   font-size: 1.5rem;
-  padding: 10px 0;
+  padding:5px 0;
 }
 .stats .field {
   text-align: end;
@@ -66,14 +66,14 @@ body {
   color: white;
 }
 
-.links {
+/* .links {
   margin: 2rem auto;
-  /* width: 65ch; */
+  width: 65ch;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
   width: 75ch;
-}
+} */
 
 .links a {
   text-decoration: none;
