@@ -1,0 +1,50 @@
+<%- include('partials/header'); -%>
+
+
+
+
+<div class="row heading animate__animated animate__fadeIn">
+  <div class="col-md-6 country-flag"><img src="<%= flag %> " alt="flag" /></div>
+  <div class="col-md-6 country-name"><h1 class=""><%= country %> </h1></div>
+</div>
+<div class="row stats">
+  <div class="col-6 field cases ">Cases:</div>
+  <div class="col-6 value "> <%= cases %>  <span class="new"> <%= todayCases %> </span> </div>
+</div>
+<div class="row stats">
+  <div class="col-6 field deaths ">Deaths:</div>
+  <div class="col-6 value"><%= deaths %> <span class="new"> <%= todayDeaths %> </span></div>
+</div>
+<div class="row stats">
+  <div class="col-6 field act-cases">Active cases:</div>
+  <div class="col-6 value"><%= actvCases %> </div>
+</div>
+<div class="row field stats">
+    <div class="col-6 field critical ">Critical:</div>
+    <div class="col-6 value"><%= critical %> </div>
+  </div>
+  <div class="row stats">
+    <div class="col-6 field tests ">Tests conducted:</div>
+    <div class="col-6 value"><%= tests %> </div>
+  </div>
+
+  
+
+  <!-- <div class="links">
+  
+      <a class="resources link" href="https://covid.army/">Look for resources <span><i class="fas fa-arrow-circle-right"></i></span> </a>
+  </div> -->
+
+<div class="search">
+  <form method="POST" action="/" class="row g-3">
+    <div class="col-auto">
+      <input type="text" name="query" class="form-control" placeholder="Country" />
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-outline-secondary mb-3">Go</button>
+    </div>
+  </form>
+</div>
+ 
+
+<%- include('partials/footer'); -%>

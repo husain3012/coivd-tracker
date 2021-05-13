@@ -1,0 +1,84 @@
+body {
+  background-color: #faf3f3;
+  font-family: "Open Sans";
+}
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-name {
+  text-align: left;
+}
+.country-flag {
+  text-align: end;
+}
+.country-name h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.country-flag img {
+  width: 80px;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .country-name {
+    text-align: center;
+  }
+  .country-flag {
+    text-align: center;
+  }
+}
+
+.stats {
+  margin: 1rem auto;
+  /* border-radius: 10px; */
+
+  width: 50ch;
+}
+.stats div {
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+.stats .field {
+  text-align: end;
+  padding-right: 2rem;
+}
+.stats .value {
+  padding-left: 2rem;
+}
+.value .new {
+  color: #f29191;
+}
+
+.dark-mode {
+  text-align: end;
+  margin-top: 80px;
+  margin-right: 2%;
+}
+
+.fa-sun {
+  color: white;
+}
+
+.links {
+  margin: 2rem auto;
+  /* width: 65ch; */
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 75ch;
+}
+
+.links a {
+  text-decoration: none;
+  color: #393e46;
+}
+
+.search{
+  margin: auto;
+  width: fit-content;
+}
