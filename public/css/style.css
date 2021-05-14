@@ -1,6 +1,8 @@
 body {
   background-color: #faf3f3;
   font-family: "Open Sans";
+  width: 90vw;
+  margin: auto;
 }
 .container {
   height: 70vh;
@@ -66,7 +68,7 @@ body {
 .dark-mode {
   text-align: end;
   margin-top: 80px;
-  margin-right: 2%;
+ 
 }
 
 .fa-sun {
