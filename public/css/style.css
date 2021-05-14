@@ -86,10 +86,20 @@ body {
 
 .links a {
   text-decoration: none;
-  color: #393e46;
+  color: #77acf1;
 }
 
 .search{
   margin: auto;
   width: fit-content;
+}
+
+
+.links{
+  width: fit-content;
+  margin: 1rem auto;
+  text-align: center;
+  /* background-color: #cdc7be; */
+  border-radius: 10px;
+  padding:  2px 5px;
 }

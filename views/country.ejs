@@ -28,12 +28,14 @@
     <div class="col-6 tests value"><span data-target="<%= tests %>" class="counter">0</span> </div>
   </div>
 
-  
+<% if(country==="India"){ %>   
 
-  <!-- <div class="links">
+<div class="links">
   
-      <a class="resources link" href="https://covid.army/">Look for resources <span><i class="fas fa-arrow-circle-right"></i></span> </a>
-  </div> -->
+      <a target="_blank" class="resources link" href="https://covid.army/">Look for resources <span><i class="fas fa-arrow-circle-right"></i></span> </a>
+  </div>
+<% } %> 
+  
 
 <div class="search">
   <form method="POST" action="/" class="row g-3">
