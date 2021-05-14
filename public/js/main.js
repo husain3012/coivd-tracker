@@ -22,7 +22,7 @@ counters.forEach(counter => {
             requestAnimationFrame(updateCount);
 		} else {
 			counter.innerText = target;
-            $(".new").show();
+            $(".new").css("visibility", "visible");
             $(".new").addClass(" animate__animated animate__zoomIn");
 		}
 	};

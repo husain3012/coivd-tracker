@@ -60,7 +60,7 @@ body {
 }
 .value .new {
   color: #f29191;
-  display: none;
+  visibility:hidden;
 }
 
 .dark-mode {
