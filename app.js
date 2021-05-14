@@ -75,9 +75,9 @@ app.post("/", function (req, res) {
     }
   });
   getReq.end();
-  getReq.on("error", function (e) {
-    console.log(e);
-  });
+  // getReq.on("error", function (e) {
+    // console.log(e);
+  // });
 });
 
 app.get("/", function (req, res) {
@@ -85,5 +85,5 @@ app.get("/", function (req, res) {
 });
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log("Server has started on port 3000");
+  console.log("Server has started");
 });
